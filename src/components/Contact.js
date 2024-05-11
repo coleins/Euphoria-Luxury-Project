@@ -12,20 +12,21 @@ function Contact() {
 
   return (
     <div>
-      <div sytle={{ backgroundColor: "#d0fffb" }}>
-        <h2 style={{ color: "#c4fe76", textAlign: "center" }}>Contact Us</h2>
+      <div sytle={{ margin: "200px", padding: "20px" }}>
+        <h2
+          style={{
+            color: "white",
+            backgroundColor: "#232323",
+            paddingBottom: "30px",
+            paddingTop: "30px",
+            textAlign: "center",
+            margin: "200px",
+          }}
+        >
+          CONTACT US
+        </h2>
       </div>
-      <div style={{ color: "white" }}>
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
-        </p>
-      </div>
+
       <div
         style={{
           display: "flex",
@@ -42,11 +43,14 @@ function Contact() {
           placeItems: "center",
         }}
       >
-        <form style={{ fontSize: "20px" }} onSubmit={handleSubmit}>
+        <form
+          style={{ fontSize: "20px", textAlign: "center" }}
+          onSubmit={handleSubmit}
+        >
           <label style={{ fontWeight: "bold", fontSize: "20px" }}>
             <div style={{ color: "#687eff" }}>Name:</div>
             <input
-            placeholder="Enter name"
+              placeholder="Enter name"
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -90,7 +94,7 @@ function Contact() {
               style={{
                 border: "none",
                 width: "100%",
-                height: "60px",
+                height: "100px",
                 fontSize: "16px",
                 borderRadius: "15px",
                 resize: "none",
@@ -109,7 +113,6 @@ function Contact() {
               marginTop: "10px",
               fontWeight: "bold",
               fontSize: "24px",
-              
             }}
           >
             {" "}
