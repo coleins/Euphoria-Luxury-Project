@@ -4,7 +4,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./Navbar.jsx";
-
+import BookingForm from "./components/BookingForm"
 const App = () => {
   const current_theme = localStorage.getItem("current_theme");
   const [theme, setTheme] = useState(current_theme ? current_theme : "light");
@@ -14,10 +14,11 @@ const App = () => {
   }, [theme]);
 
   return (
-    <div className={"container ${theme}"}>
+    <div className={`container ${theme}`}>
       <Navbar theme={theme} setTheme={setTheme} />
       <Contact />
       <About />
+      <BookingForm/>
       <Home />
     </div>
   );
