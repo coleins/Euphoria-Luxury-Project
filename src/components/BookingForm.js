@@ -27,9 +27,18 @@ const BookingForm = () => {
     <div>
       <div
         style={{
-          backgroundImage: " ",
           margin: "200px",
           padding: "20px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          backgroundColor: "#060606",
+          borderRadius: "80px",
+          width: "500px",
+          height: "500px",
+          boxShadow: "10px 4px 15px 5px",
+          justifyContent: "center",
+          placeItems: "center",
         }}
       >
         <h2
@@ -44,10 +53,12 @@ const BookingForm = () => {
           BOOK NOW
         </h2>{" "}
         <form
-          style={{ textAlign: "center", margin: "200px", padding: "20px" }}
+          style={{ textAlign: "center", margin: "200", padding: "20px" }}
           onSubmit={handleSubmit}
         >
-          <label style={{ fontWeight: "bold", fontSize: "20px" }}>
+          <label
+            style={{ color: "#687eff", fontWeight: "bold", fontSize: "20px" }}
+          >
             Name:
             <br />
             <input
@@ -58,7 +69,9 @@ const BookingForm = () => {
             />
           </label>
           <br />
-          <label style={{ fontWeight: "bold", fontSize: "20px" }}>
+          <label
+            style={{ color: "#687eff", fontWeight: "bold", fontSize: "20px" }}
+          >
             Email Address:
             <br />
             <input
@@ -80,7 +93,9 @@ const BookingForm = () => {
             />
           </label>
           <br />
-          <label style={{ fontWeight: "bold", fontSize: "20px" }}>
+          <label
+            style={{ color: "#687eff", fontWeight: "bold", fontSize: "20px" }}
+          >
             Destination:
             <br />
             <input
@@ -91,7 +106,9 @@ const BookingForm = () => {
             />
           </label>
           <br />
-          <label style={{ fontWeight: "bold", fontSize: "20px" }}>
+          <label
+            style={{ color: "#687eff", fontWeight: "bold", fontSize: "20px" }}
+          >
             Phone Number:
             <br />
             <input
@@ -102,7 +119,9 @@ const BookingForm = () => {
             />
           </label>
           <br />
-          <label style={{ fontWeight: "bold", fontSize: "20px" }}>
+          <label
+            style={{ color: "#687eff", fontWeight: "bold", fontSize: "20px" }}
+          >
             Check-in Date:
             <br />
             <input
@@ -113,7 +132,9 @@ const BookingForm = () => {
             />
           </label>
           <br />
-          <label style={{ fontWeight: "bold", fontSize: "20px" }}>
+          <label
+            style={{ color: "#687eff", fontWeight: "bold", fontSize: "20px" }}
+          >
             Check-out Date:
             <br />
             <input
@@ -124,7 +145,9 @@ const BookingForm = () => {
             />
           </label>
           <br />
-          <label style={{ fontWeight: "bold", fontSize: "20px" }}>
+          <label
+            style={{ color: "#687eff", fontWeight: "bold", fontSize: "20px" }}
+          >
             Gender:
             <br />
             <select

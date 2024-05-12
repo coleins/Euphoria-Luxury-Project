@@ -16,10 +16,12 @@ const App = () => {
   return (
     <div className={`container ${theme}`}>
       <Navbar theme={theme} setTheme={setTheme} />
+      <Home />
+      <BookingForm/>
       <Contact />
       <About />
-      <BookingForm/>
-      <Home />
+      
+      
     </div>
   );
 };

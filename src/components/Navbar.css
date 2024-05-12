@@ -27,22 +27,6 @@ ul li{
     cursor: pointer;
     margin-left: 40px;
 }
-.search-box{
-    display: flex;
-    align-items: center;
-    background: #242224;
-    padding: 10px 20px;
-    border-radius: 50px;
-}
-.search-box input{
-    padding: 6px;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    color: #fff;
-    font-size: 18px;
-    max-width: 200px;
-}
 .search-box input::placeholder{
     color: #fff;
 }

@@ -4,6 +4,7 @@
       "id": 1,
       "name": "Cozy Cabin",
       "location": "Nairobi",
+      "iageURL": "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nJTIwY2FiaW5zfGVufDB8MHwwfHx8MA%3D%3D",
       "bed capacity": 2,
       "amenities": [
         "Wi-Fi",
@@ -19,6 +20,7 @@
       "id": 2,
       "name": "Whisperwood Cabin",
       "location": "Kisumu",
+      "iageURL": "https://images.unsplash.com/photo-1502885380958-f9f2289af1a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9nJTIwY2FiaW5zfGVufDB8MHwwfHx8MA%3D%3D",
       "bed capacity": 1,
       "amenities": ["Hot Tub", "Balcony", "BBQ Grill", "Hiking Trails"],
       "rating": 4.5
@@ -27,6 +29,7 @@
       "id": 3,
       "name": "Cedarhaven Cabin",
       "location": "Eldoret",
+      "iageURL": "https://images.unsplash.com/photo-1620388007119-f8adbdc3274e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxvZyUyMGNhYmluc3xlbnwwfDB8MHx8fDA%3D",
       "bed capacity": 4,
       "amenities": ["Game Room", "Jacuzzi", "Patio", "Pet-Friendly"],
       "rating": 4
@@ -35,6 +38,7 @@
       "id": 4,
       "name": "Tranquilidge Cabin",
       "location": "Machakos",
+      "iageURL": "https://images.unsplash.com/photo-1571559014457-ecf637508bf5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxvZyUyMGNhYmluc3xlbnwwfDB8MHx8fDA%3D",
       "bed capacity": 2,
       "amenities": ["Pool Table", "Library", "Garden", "Movie Theater"],
       "rating": 4.7
@@ -43,6 +47,7 @@
       "id": 5,
       "name": "Serenewoods Cabin ",
       "location": "Mombasa",
+      "iageURL": "https://images.unsplash.com/photo-1504643039591-52948e3ddb47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvZyUyMGNhYmluc3xlbnwwfDB8MHx8fDA%3D",
       "bed capacity": 2,
       "amenities": [
         "Mountain View",
@@ -56,6 +61,7 @@
       "id": 6,
       "name": "Oakshade Cabin",
       "location": "Kericho",
+      "iageURL": "https://images.unsplash.com/photo-1475087542963-13ab5e611954?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxvZyUyMGNhYmluc3xlbnwwfDB8MHx8fDA%3D",
       "bed capacity": 3,
       "amenities": [
         "Fishing Pond",
@@ -69,6 +75,7 @@
       "id": 7,
       "name": "Meadowview Cabin",
       "location": "Nakuru",
+      "iageURL": "https://plus.unsplash.com/premium_photo-1681922761648-d5e2c3972982?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FiaW5zfGVufDB8MHwwfHx8MA%3D%3D",
       "bed capacity": 2,
       "amenities": [
         "River Access",
@@ -82,6 +89,7 @@
       "id": 8,
       "name": "Rusticrest Cabin",
       "location": "Naivasha",
+      "iageURL": "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FiaW5zfGVufDB8MHwwfHx8MA%3D%3D",
       "bed capacity": 2,
       "amenities": ["Fitness Center", "Sauna", "Board Games", "Gourmet Chef"],
       "rating": 4.3

@@ -12,7 +12,18 @@ const Navbar = ({ theme, setTheme }) => {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
   return (
-    <div className="navbar">
+    <div
+      style={{
+        width: "100%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        background: "#fff",
+        padding: "15px 7%",
+        transition: "0.5s",
+        backgroundColor:"#c4fe76",
+      }}
+    >
       <img
         src={theme === "light" ? logo_light : logo_dark}
         alt=""
@@ -26,17 +37,42 @@ const Navbar = ({ theme, setTheme }) => {
         <li>About</li>
       </ul>
 
-      <div className="search-box">
-        <input type="text" placeholder="search" />
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          background: "#242224",
+          padding: "10px 20px",
+          borderRadius: "50px",
+        }}
+      >
+        <input
+          style={{
+            padding: "6px",
+            background: "transparent",
+            border: "0",
+            outline: "0",
+            color: "#fff",
+            fontSize: "18px",
+            maxWidth: "200px",
+          }}
+          type="text"
+          placeholder="search"
+        />
         <img
           src={theme === "light" ? search_icon_light : search_icon_dark}
-          alt=""/>
+          alt=""
+        />
       </div>
 
-      <img onClick={()=>{toggle_mode()}} src={theme === 'light' ? 
-      toogle_light : toogle_dark} alt=""
-      className='tongle-icon'/>
-      
+      <img
+        onClick={() => {
+          toggle_mode();
+        }}
+        src={theme === "light" ? toogle_light : toogle_dark}
+        alt=""
+        className="tongle-icon"
+      />
     </div>
   );
 };
