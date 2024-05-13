@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import CabinCard from "./CabinCard";
 
+
 const Cabins = () => {
   const [cabins, setCabins] = useState([]);
 
