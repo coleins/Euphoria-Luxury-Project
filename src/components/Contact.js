@@ -24,18 +24,12 @@ function Contact() {
             fontSize: "40px",
           }}
         >
-          CONTACT US
+          GET TO KNOW MORE !!
         </h2>
 
         <div>
-          <p style={{ fontSize: "20px" }}>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+          <p style={{ textAlign:"center",fontSize: "40px" }}>
+            "Dear Client, quality service deivery is the core of our business. To interact with the customer experience team, reach out on the social media platforms at the bottom of the page or fill the form below."
           </p>
         </div>
         <div

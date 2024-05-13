@@ -1,27 +1,37 @@
-import React, { useEffect, useState } from "react";
-import "./App.css";
+import React, { useState } from "react";
+import "./components/Navbar.css";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Home from "./components/Home";
-import Navbar from "./Navbar.jsx";
-import BookingForm from "./components/BookingForm"
-const App = () => {
-  const current_theme = localStorage.getItem("current_theme");
-  const [theme, setTheme] = useState(current_theme ? current_theme : "light");
+import Navbar from "./Navbar";
+import BookingForm from "./components/BookingForm";
+import Cabins from "./components/Cabins";
+import Footer from "./components/Footer";
 
-  useEffect(() => {
-    localStorage.setItem("current_theme", theme);
-  }, [theme]);
+
+
+const App = () => {
+  const [selectedComponent, setSelectedComponent] = useState("Home");
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  };
 
   return (
     <div className={`container ${theme}`}>
-      <Navbar theme={theme} setTheme={setTheme} />
-      <Home />
-      <BookingForm/>
-      <Contact />
-      <About />
-      
-      
+      <Navbar
+        handleNavbarItemClick={setSelectedComponent}
+        theme={theme}
+        toggleTheme={toggleTheme}
+      />
+      {/* Display the selected component */}
+      {selectedComponent === "Home" && <Home />}
+      {selectedComponent === "Contact" && <Contact />}
+      {selectedComponent === "About" && <About />}
+      {selectedComponent === "Booking" && <BookingForm />}
+      {selectedComponent === "Cabins" && <Cabins />}
+      <Footer />
     </div>
   );
 };
