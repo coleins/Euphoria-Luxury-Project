@@ -52,15 +52,18 @@ const BookingForm = () => {
             backgroundColor: "#060606",
             padding: "20px",
             borderRadius: "80px",
-            width: "500px",
-            height: "600px",
+            width: "800px",
+            height: "1000px",
             margin: "auto",
             boxShadow: "10px 4px 15px 5px",
             justifyContent: "center",
             placeItems: "center",
           }}
         >
-          <form style={{ color: "#687eff", fontWeight: "bold", fontSize: "20px" }} onSubmit={handleSubmit}>
+          <form
+            style={{ color: "#687eff", fontWeight: "bold", fontSize: "20px" }}
+            onSubmit={handleSubmit}
+          >
             <label style={{ fontWeight: "bold", fontSize: "20px" }}>
               <div style={{ color: "#687eff" }}>Name</div>
               <input
@@ -100,7 +103,7 @@ const BookingForm = () => {
                   paddingLeft: "10px",
                 }}
               ></input>
-            </label >
+            </label>
             <br />
 
             <label>
