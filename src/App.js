@@ -7,8 +7,7 @@ import Navbar from "./Navbar";
 import BookingForm from "./components/BookingForm";
 import Cabins from "./components/Cabins";
 import Footer from "./components/Footer";
-
-
+import "./App.css";
 
 const App = () => {
   const [selectedComponent, setSelectedComponent] = useState("Home");

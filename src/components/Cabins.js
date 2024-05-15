@@ -20,7 +20,7 @@ const Cabins = () => {
 
   return (
     <div>
-      <div>
+      {/* <div>
         <h1>Filter</h1>
         <button onClick={(event) => console.log(event)}>Click Me</button>
         <form>
@@ -31,7 +31,7 @@ const Cabins = () => {
           </select>
           <button type="submit">Submit that form</button>
         </form>
-      </div>
+      </div> */}
       <div
         style={{
           padding: "20px",

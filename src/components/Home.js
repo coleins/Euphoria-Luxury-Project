@@ -7,6 +7,7 @@ function Home() {
         style={{
           margin: "200px",
           padding: "20px",
+          // backgroundColor:"grey"
         }}
       >
         <h1

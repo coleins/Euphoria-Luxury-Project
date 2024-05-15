@@ -5,12 +5,11 @@ function Footer() {
     <div>
       <footer
         style={{
-          // marginLeft: "200px 200px",
+          position: "fixed",
+          bottom: "0",
+          left: "0",
+
           fontSize: "40px",
-          // paddingTop: "20px",
-          // marginBottom: "1px",
-          // bottom: "0",
-          justifyContent:"center",
         }}
       >
         <div style={{ display: "flex", fontSize: "80px" }}>
