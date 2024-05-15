@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function Home() {
   return (
     <div>
@@ -24,10 +23,10 @@ function Home() {
           <br /> CABINS
         </h1>
 
-        <p style={{ fontSize: "40px", textAlign: "center" }}>
+        <div><p style={{ fontSize: "40px", textAlign: "center" }}>
           "Indulge in Opulence, embrace serenity. Euphoria Luxury Hotel: Where
           every stay is a lavish journey of tranquility and elegance."
-        </p>
+        </p></div>
       </div>
     </div>
   );

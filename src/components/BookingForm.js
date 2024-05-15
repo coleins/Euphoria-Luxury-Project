@@ -22,196 +22,225 @@ const BookingForm = () => {
     console.log(formData);
     alert("Welcome to Euphoria!");
   };
-
   return (
     <div>
-      <div
-        style={{
-          margin: "200px",
-          padding: "20px",
-        }}
-      >
+      <div style={{ margin: "200px", padding: "20px" }}>
         <h2
           style={{
-            padding: "20px",
             color: "white",
             backgroundColor: "#232323",
-            paddingBottom: "30px",
-            paddingTop: "30px",
+            // paddingBottom: "10px",
+            // paddingTop: "10px",
             textAlign: "center",
+            padding: "20px",
             fontSize: "40px",
           }}
         >
           BOOK NOW
         </h2>
-        <div style={{}}>
-          <div>
-            <p style={{ fontSize: "50px" }}>
-              "Secure your stay today! Book now for unbeatable rates and
-              unforgettable experiences."
-            </p>
-          </div>
-          <div>
-            {" "}
-            <form
+        <div>
+          <p style={{ textAlign: "center", fontSize: "40px" }}>
+            Secure your stay today! Book now for unbeatable rates and
+            unforgettable experiences.
+          </p>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            backgroundColor: "#060606",
+            padding: "20px",
+            borderRadius: "80px",
+            width: "500px",
+            height: "600px",
+            margin: "auto",
+            boxShadow: "10px 4px 15px 5px",
+            justifyContent: "center",
+            placeItems: "center",
+          }}
+        >
+          <form style={{ color: "#687eff", fontWeight: "bold", fontSize: "20px" }} onSubmit={handleSubmit}>
+            <label style={{ fontWeight: "bold", fontSize: "20px" }}>
+              <div style={{ color: "#687eff" }}>Name</div>
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                style={{
+                  width: "100%",
+                  height: "40px",
+                  fontSize: "16px",
+                  marginBottom: "10px",
+                  border: "none",
+                  borderRadius: "10px",
+                  outline: "none",
+                  paddingLeft: "10px",
+                }}
+              ></input>
+              <br />
+            </label>
+
+            <label>
+              <div>Email Address</div>
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                style={{
+                  width: "100%",
+                  height: "40px",
+                  fontSize: "16px",
+                  marginBottom: "10px",
+                  border: "none",
+                  borderRadius: "10px",
+                  outline: "none",
+                  paddingLeft: "10px",
+                }}
+              ></input>
+            </label >
+            <br />
+
+            <label>
+              <div>Age</div>
+              <input
+                type="number"
+                name="age"
+                value={formData.age}
+                onChange={handleChange}
+                style={{
+                  width: "100%",
+                  height: "40px",
+                  fontSize: "16px",
+                  marginBottom: "10px",
+                  border: "none",
+                  borderRadius: "10px",
+                  outline: "none",
+                  paddingLeft: "10px",
+                }}
+              ></input>
+            </label>
+            <br />
+
+            <label>
+              <div>Destination</div>
+              <input
+                type="text"
+                name="destination"
+                value={formData.destination}
+                onChange={handleChange}
+                style={{
+                  width: "100%",
+                  height: "40px",
+                  fontSize: "16px",
+                  marginBottom: "10px",
+                  border: "none",
+                  borderRadius: "10px",
+                  outline: "none",
+                  paddingLeft: "10px",
+                }}
+              ></input>
+            </label>
+            <br />
+            <label>
+              <div>Phone Number</div>
+              <input
+                type="tel"
+                name="phoneNumber"
+                value={formData.phoneNumber}
+                onChange={handleChange}
+                style={{
+                  width: "100%",
+                  height: "40px",
+                  fontSize: "16px",
+                  marginBottom: "10px",
+                  border: "none",
+                  borderRadius: "10px",
+                  outline: "none",
+                  paddingLeft: "10px",
+                }}
+              ></input>
+            </label>
+            <br />
+            <label>
+              <div>Check-in-Date</div>
+              <input
+                type="date"
+                name="checkInDate"
+                value={formData.checkInDate}
+                onChange={handleChange}
+                style={{
+                  width: "100%",
+                  height: "40px",
+                  fontSize: "16px",
+                  marginBottom: "10px",
+                  border: "none",
+                  borderRadius: "10px",
+                  outline: "none",
+                  paddingLeft: "10px",
+                }}
+              ></input>
+            </label>
+            <br />
+            <label>
+              <div>Check-out-Date</div>
+              <input
+                type="date"
+                name="checkOutDate"
+                value={formData.checkOutDate}
+                onChange={handleChange}
+                style={{
+                  width: "100%",
+                  height: "40px",
+                  fontSize: "16px",
+                  marginBottom: "10px",
+                  border: "none",
+                  borderRadius: "10px",
+                  outline: "none",
+                  paddingLeft: "10px",
+                }}
+              ></input>
+            </label>
+            <br />
+            <label>
+              <div>Gender</div>
+              <select
+                name="gender"
+                value={formData.gender}
+                onChange={handleChange}
+                style={{
+                  width: "100%",
+                  height: "40px",
+                  fontSize: "16px",
+                  marginBottom: "10px",
+                  border: "none",
+                  borderRadius: "10px",
+                  outline: "none",
+                  paddingLeft: "10px",
+                }}
+              >
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+            <br />
+            <button
+              type="submit"
               style={{
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                backgroundColor: "#060606",
-                borderRadius: "80px",
-                width: "500px",
-                height: "500px",
-                boxShadow: "10px 4px 15px 5px",
-                justifyContent: "center",
-                textAlign: "center",
-                margin: "200",
-                padding: "20px",
+                border: "none",
+                borderRadius: "15px",
+                marginTop: "10px",
+                fontWeight: "bold",
+                fontSize: "24px",
               }}
-              onSubmit={handleSubmit}
             >
-              <label
-                style={{
-                  color: "#687eff",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              >
-                Name:
-                <br />
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                />
-              </label>
-              <br />
-              <label
-                style={{
-                  color: "#687eff",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              >
-                Email Address:
-                <br />
-                <input
-                  type="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                />
-              </label>
-              <br />
-              <label
-                style={{
-                  color: "#687eff",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              >
-                Age:
-                <br />
-                <input
-                  type="number"
-                  name="age"
-                  value={formData.age}
-                  onChange={handleChange}
-                />
-              </label>
-              <br />
-              <label
-                style={{
-                  color: "#687eff",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              >
-                Destination:
-                <br />
-                <input
-                  type="text"
-                  name="destination"
-                  value={formData.destination}
-                  onChange={handleChange}
-                />
-              </label>
-              <br />
-              <label
-                style={{
-                  color: "#687eff",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              >
-                Phone Number:
-                <br />
-                <input
-                  type="tel"
-                  name="phoneNumber"
-                  value={formData.phoneNumber}
-                  onChange={handleChange}
-                />
-              </label>
-              <br />
-              <label
-                style={{
-                  color: "#687eff",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              >
-                Check-in Date:
-                <br />
-                <input
-                  type="date"
-                  name="checkInDate"
-                  value={formData.checkInDate}
-                  onChange={handleChange}
-                />
-              </label>
-              <br />
-              <label
-                style={{
-                  color: "#687eff",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              >
-                Check-out Date:
-                <br />
-                <input
-                  type="date"
-                  name="checkOutDate"
-                  value={formData.checkOutDate}
-                  onChange={handleChange}
-                />
-              </label>
-              <br />
-              <label
-                style={{
-                  color: "#687eff",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              >
-                Gender:
-                <br />
-                <select
-                  name="gender"
-                  value={formData.gender}
-                  onChange={handleChange}
-                >
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                  <option value="other">Other</option>
-                </select>
-              </label>
-              <br />
-              <button type="submit">Submit</button>
-            </form>
-          </div>
+              {" "}
+              &lt; Submit &gt;
+            </button>
+          </form>
         </div>
       </div>
     </div>

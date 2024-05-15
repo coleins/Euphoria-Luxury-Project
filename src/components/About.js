@@ -16,7 +16,7 @@ function About() {
         >
           ABOUT US
         </h2>
-        <p style={{ fontsSize: "50px", padding: "20px", textAlign: "center" }}>
+        <p style={{ fontsSize: "50px", padding: "50px", textAlign: "center" }}>
           Established in 2010 by Dorcas Akamuran, David Mugambi, Catherine
           Wanjiku, and Alex Karanja, Euphoria Luxury Cabins epitomizes a
           harmonious fusion of opulence and hospitality. Nestled at the pinnacle

@@ -1,8 +1,6 @@
 import React from "react";
 import logo_light from "./assets/logo-black.png";
 import logo_dark from "./assets/logo-white.png";
-import search_icon_light from "./assets/search-w.png";
-import search_icon_dark from "./assets/search-b.png";
 import toogle_light from "./assets/night.png";
 import toogle_dark from "./assets/day.png";
 

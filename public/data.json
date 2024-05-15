@@ -15,7 +15,7 @@
       "id": 2,
       "name": "Whisperwood Cabin",
       "location": "Kisumu",
-      "imageURL": "https://images.unsplash.com/photo-1502885380958-f9f2289af1a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9nJTIwY2FiaW5zfGVufDB8MHwwfHx8MA%3D%3D",
+      "imageURL": "https://plus.unsplash.com/premium_photo-1685133855300-60d42d843c0a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FiaW58ZW58MHwwfDB8fHww",
       "capacity": 1,
       "description": "Enjoy solitude in nature with a hot tub, balcony, BBQ grill, and nearby hiking trails.",
       "rating": 4.5,
@@ -81,6 +81,5 @@
       "rating": 4.3,
       "price": 45000
     }
- 
   ]
 }

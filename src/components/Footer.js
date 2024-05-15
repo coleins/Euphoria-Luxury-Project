@@ -5,13 +5,12 @@ function Footer() {
     <div>
       <footer
         style={{
-          margin: "200px",
+          // marginLeft: "200px 200px",
           fontSize: "40px",
-          paddingTop: "200px",
-          // left: "0",
-          bottom: "0",
-          // width: "100%",
-          // padding: "20px",
+          // paddingTop: "20px",
+          // marginBottom: "1px",
+          // bottom: "0",
+          justifyContent:"center",
         }}
       >
         <div style={{ display: "flex", fontSize: "80px" }}>
@@ -48,9 +47,7 @@ function Footer() {
             <FaLinkedin />
           </a>
         </div>
-        <p style={{ paddingTop: "350px" }}>
-          © 2024 Euphoria Luxury Cabins. All rights reserved.
-        </p>
+        <p>© 2024 Euphoria Luxury Cabins. All rights reserved.</p>
       </footer>
     </div>
   );

@@ -1,21 +1,21 @@
 .navbar {
-  /* width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: aqua;
-    padding: 15px 7%;  
-    transition: o.5s; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: aqua;
+  padding: 15px 7%;
+  transition: o.5s;
   padding: 0.5rem 0.75rem;
   font-size: 18px;
   font-weight: 600;
-  background-color: #CCCCCC;
+  background-color: #e38035;
   position: relative;
   transition: color 0.25s;
 }
 .logo {
-  width: 200px;
-  height:160px;
+  width: 100px;
+  height: 100px;
   cursor: pointer;
 }
 ul {

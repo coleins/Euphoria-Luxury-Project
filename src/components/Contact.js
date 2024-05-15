@@ -3,13 +3,18 @@ import React, { useState } from "react";
 function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Name:", name);
     console.log("Email", email);
+    console.log("Message", message);
+    alert("Message Sent!");
   };
-
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+  };
   return (
     <div>
       <div style={{ margin: "200px", padding: "20px" }}>
@@ -28,8 +33,11 @@ function Contact() {
         </h2>
 
         <div>
-          <p style={{ textAlign:"center",fontSize: "40px" }}>
-            "Dear Client, quality service deivery is the core of our business. To interact with the customer experience team, reach out on the social media platforms at the bottom of the page or fill the form below."
+          <p style={{ textAlign: "center", fontSize: "40px" }}>
+            "Dear Client, quality service deivery is the core of our business.
+            To interact with the customer experience team, reach out on the
+            social media platforms at the bottom of the page or fill the form
+            below."
           </p>
         </div>
         <div
@@ -93,6 +101,8 @@ function Contact() {
               <div style={{ color: "#687eff" }}>Message:</div>
               <input
                 placeholder="Enter your message"
+                value={message}
+                onChange={handleMessageChange}
                 style={{
                   border: "none",
                   width: "100%",
