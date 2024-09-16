@@ -1,0 +1,16 @@
+.homepage {
+  color: #ffffff;
+}
+.homepage h1:nth-last-of-type(1) {
+  padding: 20px;
+
+  font-size: 30px;
+  background-color: #718355;
+  border-radius: 15px;
+}
+
+@media (min-width: 1020px) {
+  .homepage {
+    margin: 100px;
+  }
+}
