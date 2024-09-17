@@ -7,9 +7,11 @@ export default function Navbar() {
       <header>
         <nav>
           {/* <ul> */}
-          <ul>
+          <ul className="navbar-ul">
             <Link to="/"></Link>
             <Link to="home">Home</Link>
+            <Link to="contact">Contact</Link>
+            <Link to="about">About</Link>
           </ul>
           {/* </ul> */}
         </nav>
