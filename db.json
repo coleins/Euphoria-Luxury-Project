@@ -8,7 +8,8 @@
       "capacity": 2,
       "description": "Experience comfort with Wi-Fi, fireplace, kitchen, and parking, plus a touch of luxury with a movie theatre.",
       "rating": 4.8,
-      "price": 15000
+      "price": 15000,
+      "detail": "Cozy Cabin is the perfect romantic getaway located in Nairobi. This charming two-person retreat offers modern amenities like high-speed Wi-Fi, a warm fireplace, and a fully-equipped kitchen. With private parking and a movie theater, it blends comfort and entertainment. Ideal for couples seeking a relaxing, luxury escape."
     },
 
     {
@@ -19,7 +20,8 @@
       "capacity": 1,
       "description": "Enjoy solitude in nature with a hot tub, balcony, BBQ grill, and nearby hiking trails.",
       "rating": 4.5,
-      "price": 20000
+      "price": 20000,
+      "detail": "Whisperwood Cabin, nestled in the tranquil setting of Kisumu, is perfect for solo travelers. This one-person cabin offers complete privacy and connection to nature, with nearby hiking trails, a hot tub, and a cozy balcony to enjoy serene views. The BBQ grill and outdoor space make it ideal for quiet retreats."
     },
     {
       "id": 3,
@@ -29,7 +31,8 @@
       "capacity": 4,
       "description": "Retreat in style with a game room, jacuzzi, patio, and pet-friendly accommodations.",
       "rating": 4,
-      "price": 17500
+      "price": 17500,
+      "detail": "Cedarhaven Cabin in Eldoret is a spacious retreat, perfect for families or small groups. With room for up to four guests, it offers a variety of entertainment options, including a game room and jacuzzi. The private patio and pet-friendly policy make it ideal for guests seeking a relaxed, fun-filled vacation with their furry friends."
     },
     {
       "id": 4,
@@ -39,17 +42,19 @@
       "capacity": 2,
       "description": "Find peace with a pool table, library, garden, and the added luxury of a movie theater.",
       "rating": 4.7,
-      "price": 25000
+      "price": 25000,
+      "detail": "Tranquilidge Cabin, located in Machakos, offers a peaceful retreat for two. Surrounded by lush gardens, this luxurious cabin features a movie theater, pool table, and a quiet library for those seeking relaxation. It is the ideal setting for guests who want a serene and indulgent escape in nature."
     },
     {
       "id": 5,
-      "name": "Serenewoods Cabin ",
+      "name": "Serenewoods Cabin",
       "location": "Mombasa",
       "image": "https://images.unsplash.com/photo-1504643039591-52948e3ddb47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvZyUyMGNhYmluc3xlbnwwfDB8MHx8fDA%3D",
       "capacity": 2,
       "description": "Relax amidst mountain views, outdoor fire pit, laundry facilities, and a private deck.",
       "rating": 4.8,
-      "price": 30000
+      "price": 30000,
+      "detail": "Serenewoods Cabin in Mombasa is a luxurious retreat for two, offering breathtaking mountain views and a cozy outdoor fire pit. The private deck is perfect for star-gazing or enjoying a peaceful morning with nature. Complete with laundry facilities, this cabin is an excellent blend of convenience and natural beauty."
     },
     {
       "id": 6,
@@ -59,7 +64,8 @@
       "capacity": 3,
       "description": "Embrace outdoor adventures with a fishing pond, picnic area, hiking trails, and bike rental.",
       "rating": 4.9,
-      "price": 32500
+      "price": 32500,
+      "detail": "Oakshade Cabin, located in the scenic beauty of Kericho, is perfect for nature lovers. Offering space for up to three guests, it includes outdoor activities like fishing, hiking, and biking. With a picnic area and serene surroundings, this cabin is ideal for those looking to escape into nature and adventure."
     },
     {
       "id": 7,
@@ -69,7 +75,8 @@
       "capacity": 2,
       "description": "Connect with nature through river access, a massage chair, star-gazing deck, and yoga studio.",
       "rating": 4.4,
-      "price": 24560
+      "price": 24560,
+      "detail": "Meadowview Cabin, located in Nakuru, provides the perfect escape for couples or friends looking to unwind in nature. With river access, a star-gazing deck, and a massage chair, this cabin offers complete relaxation. Guests can also take advantage of the yoga studio for a peaceful and rejuvenating experience."
     },
     {
       "id": 8,
@@ -79,7 +86,8 @@
       "capacity": 2,
       "description": "Unwind in rustic luxury with a fitness center, sauna, board games, and gourmet chef services.",
       "rating": 4.3,
-      "price": 45000
+      "price": 45000,
+      "detail": "Rusticrest Cabin in Naivasha offers a unique blend of luxury and rustic charm for two guests. With gourmet chef services, a sauna, and a fitness center, it provides everything needed for a relaxing and rejuvenating stay. Board games and other entertainment options make it perfect for couples looking to unwind in style."
     }
   ]
 }
