@@ -4,15 +4,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-body,
-html {
+html, body {
   background-color: #fcf5e5;
   margin: 0;
 }
 
 @media (min-width: 1020px) {
-  
-  
   #root {
     margin: 100px;
   }
