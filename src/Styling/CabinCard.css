@@ -1,5 +1,5 @@
 .cabin-card {
-  background-color: #f4f1f8;
+  background-color: #e9f5db;
   border: none;
   text-align: center;
   border-radius: 15px;
@@ -31,3 +31,11 @@ img {
   font-size: 20px;
 }
 
+.cabin-card button {
+  background-color: #718355;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}

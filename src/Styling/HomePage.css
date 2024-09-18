@@ -5,12 +5,12 @@
   padding: 20px;
 
   font-size: 30px;
-  background-color: #718355;
+  background-color: #b5c99a;
   border-radius: 15px;
 }
 
-@media (min-width: 1020px) {
+/* @media (min-width: 1020px) {
   .homepage {
     margin: 100px;
   }
-}
+} */
