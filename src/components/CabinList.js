@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Styling/CabinCard.css";
 import CabinCard from "./CabinCard";
-
+import CabinDetailPage from "../pages/CabinDetailsPage";
 const CabinList = () => {
   const [cabins, setCabins] = useState([]);
 
@@ -17,7 +17,10 @@ const CabinList = () => {
       <h1>View Cabins</h1>
       <div className="cabin-list">
         {cabins.map((cabin) => (
-          <CabinCard key={cabin.id} cabin={cabin} />
+          <div>
+            <CabinCard key={cabin.id} cabin={cabin} />
+            <CabinDetailPage key={cabin.id} cabin={cabin}/>
+          </div>
         ))}
       </div>
     </div>
