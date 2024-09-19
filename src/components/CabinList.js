@@ -6,7 +6,7 @@ const CabinList = () => {
   const [cabins, setCabins] = useState([]);
 
   useEffect(() => {
-    fetch("/properties")
+    fetch("http://localhost:5500/properties")
       .then((response) => response.json())
       .then((data) => setCabins(data))
       .catch((error) => console.error("Error fetching cabins:", error));
