@@ -4,60 +4,34 @@
   align-items: center;
   background-color: #b5c99a;
   position: fixed;
+  width: calc(100% - 200px);
   top: 0;
   z-index: 1;
+  box-sizing: border-box;
   border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
   border-bottom-left-radius: 60px;
   border-top-right-radius: 60px;
-  padding-right: 40px;
-  width: 100%;
 }
 
 .logo-container img {
-  max-width: 300px;
+  max-width: 200px;
 }
 
-.navbar-links {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 20px;
-  gap: 30px;
-}
-
-.navbar-links li {
-  margin: 0 15px;
-}
-
-.navbar-links a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: color 0.3s ease;
-  font-size: 40px;
-}
-
-.navbar-links a:hover {
-  color: black;
-}
-.navbar-links a:active {
-  color: #718355;
-}
-
-/* nav ul {
-  list-style: none;
+nav ul {
+  list-style-type: none;
   display: flex;
   gap: 50px;
   margin: 0 40px;
 }
 
 nav ul li a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
 }
 
 nav ul li a:hover {
-  color: black;
-} */
+  color: #000000;
+}
