@@ -19,7 +19,7 @@ const CabinList = () => {
         {cabins.map((cabin) => (
           <div>
             <CabinCard key={cabin.id} cabin={cabin} />
-            <CabinDetailPage key={cabin.id} cabin={cabin}/>
+            <CabinDetailPage key={cabin.id} cabin={cabin} />
           </div>
         ))}
       </div>
