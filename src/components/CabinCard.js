@@ -11,10 +11,6 @@ const CabinCard = ({ cabin }) => {
         {cabin.capacity}
       </p>
       <p>
-        <strong>Rating: </strong>
-        {cabin.rating}
-      </p>
-      <p>
         <strong>Price/ Night: </strong>KES {cabin.price}
       </p>
       <button>View Details</button>
