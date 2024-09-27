@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../Styling/CabinCard.css";
+import { Link } from "react-router-dom";
 const CabinCard = ({ cabin }) => {
   return (
     <div className="cabin-card">
@@ -13,7 +14,9 @@ const CabinCard = ({ cabin }) => {
       <p>
         <strong>Price/ Night: </strong>KES {cabin.price}
       </p>
-      <button>View Details</button>
+      <Link to={`/cabins/${cabin.id}`}>
+        <button>View Details</button>
+      </Link>
     </div>
   );
 };
