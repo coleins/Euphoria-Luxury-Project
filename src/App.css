@@ -13,9 +13,9 @@ html {
   box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   html {
     margin-left: 100px;
     margin-right: 100px;
   }
-}
+} */

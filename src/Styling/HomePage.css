@@ -8,9 +8,12 @@
   background-color: #b5c99a;
   border-radius: 15px;
 }
+.homepage svg {
+  color: gold;
+}
 
-/* @media (min-width: 1020px) {
+@media (min-width: 1020px) {
   .homepage {
     margin: 100px;
   }
-} */
+}
