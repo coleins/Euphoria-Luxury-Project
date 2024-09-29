@@ -1,0 +1,61 @@
+.booking-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.booking-page h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+}
+span {
+    color: aqua;
+    font-size: 2rem;
+
+}
+form {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+form label {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+form input[type="date"] {
+  font-family: "Poppins", sans-serif;
+}
+
+form button {
+  background-color: #b5c99a;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+}

@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 
 body {
   font-family: "Poppins", sans-serif;
-  /* padding-top: 30px; */
   box-sizing: border-box;
   margin: 0;
 }
@@ -13,10 +11,3 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
-
-/* @media (min-width: 768px) {
-  html {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-} */

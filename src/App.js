@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import logo from "./Assets/logo.png";
 import CabinDetailsPage from "./pages/CabinDetailsPage";
+import BookingPage from "./pages/BookingPage";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="/cabins/:id" element={<CabinDetailsPage />} />
+        <Route path="/bookings/:id" element={<BookingPage />} />
       </Routes>
     </BrowserRouter>
   );
