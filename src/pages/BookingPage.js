@@ -18,32 +18,37 @@ export default function BookingPage() {
   }
 
   return (
-    <div className="booking-page" style={{
-      backgroundImage: `url(${cabin.image})`,}}>
+    <div
+      className="booking-page"
+      style={{
+        backgroundImage: `url(${cabin.image})`,
+      }}
+    >
       <div className="booking-content">
-      <h1>Book Your Stay at <span>{cabin.name}</span></h1>
-      
+        <h1>
+          Book Your Stay at <span>{cabin.name}</span>
+        </h1>
 
-      <form>
-        <label>
-          Name:
-          <input type="text" name="name" />
-        </label>
-        <label>
-          Email:
-          <input type="email" name="email" />
-        </label>
-        <label>
-          Check-in Date:
-          <input type="date" name="checkin" />
-        </label>
-        <label>
-          Check-out Date:
-          <input type="date" name="checkout" />
-        </label>
-        <button type="submit">Confirm Booking</button>
-      </form>
-    </div>
+        <form>
+          <label>
+            Name:
+            <input type="text" name="name" />
+          </label>
+          <label>
+            Email:
+            <input type="email" name="email" />
+          </label>
+          <label>
+            Check-in Date:
+            <input type="date" name="checkin" />
+          </label>
+          <label>
+            Check-out Date:
+            <input type="date" name="checkout" />
+          </label>
+          <button type="submit">Confirm Booking</button>
+        </form>
+      </div>
     </div>
   );
 }

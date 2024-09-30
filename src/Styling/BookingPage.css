@@ -12,12 +12,13 @@
 .booking-page h1 {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
-  color: white;
+  color: gold;
   margin-bottom: 20px;
 }
 span {
     color: aqua;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: "Quicksand";
 
 }
 form {
@@ -45,6 +46,7 @@ form input {
   border: 1px solid #ccc;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  margin-right: 20px;
 }
 
 form input[type="date"] {
@@ -57,5 +59,5 @@ form button {
   padding: 10px;
   font-size: 20px;
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
 }
