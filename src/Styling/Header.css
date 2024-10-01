@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #b5c99a;
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   width: calc(100% - 200px);
   top: 0;
@@ -26,12 +26,12 @@ nav ul {
 }
 
 nav ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 25px;
   font-weight: bolder;
 }
 
 nav ul li a:hover {
-  color: white;
+  color: aqua;
 }

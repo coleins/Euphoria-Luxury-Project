@@ -1,13 +1,12 @@
 .homepage {
-  color: black;
+  color: white;
   margin-top: 300px;
 }
 .homepage h1:nth-last-of-type(1) {
   padding: 20px;
   margin-top: 150px;
-
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 30px;
-  background-color: #b5c99a;
   border-radius: 15px;
 }
 .homepage svg {
